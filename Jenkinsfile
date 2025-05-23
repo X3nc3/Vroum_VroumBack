@@ -13,11 +13,12 @@ pipeline {
     }
 
     stages {
-    stage('Vérification Git') {
-        steps {
-            sh 'git --version'
+        stage('Vérification Git') {
+            steps {
+                sh 'git --version'
+            }
         }
-    }
+
         stage('Clonage du dépôt') {
             steps {
                 git 'https://github.com/X3nc3/Vroum_VroumBack.git'
