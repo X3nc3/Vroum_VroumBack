@@ -40,7 +40,8 @@ class VehiculeServiceServTest {
 
     @Test
     public void testFindAll() {
-        List<VehiculeService> list = Arrays.asList(vehiculeService);
+        System.out.println("Méthode test findAll");
+        List<VehiculeService> list = Collections.singletonList(vehiculeService);
         when(vehiculeServiceRepository.findAll()).thenReturn(list);
 
         List<VehiculeService> result = vehiculeServiceServ.findAll();

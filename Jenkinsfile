@@ -16,7 +16,7 @@ pipeline {
         stage('Tests unitaires') {
             steps {
                 echo "======================> mvn test"
-                sh 'mvn -Dmaven.repo.local=.m2 test'
+                sh 'mvn -b -Dmaven.repo.local=.m2 test'
             }
             post {
                 always {
