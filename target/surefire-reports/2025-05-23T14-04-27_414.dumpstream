@@ -1,5 +1,0 @@
-# Created at 2025-05-23T14:04:27.579
-Boot Manifest-JAR contains absolute paths in classpath 'D:\dev\CDA JAVA\28 - projet cda\Vroum_VroumBack\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-'other' has different root
-
