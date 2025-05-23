@@ -20,7 +20,7 @@ pipeline {
             }
             post {
                 always {
-                    junit 'target/test-classes/demo/vroum_vroum/*'
+                    junit 'target/surefire-reports/*'
                 }
             }
         }
