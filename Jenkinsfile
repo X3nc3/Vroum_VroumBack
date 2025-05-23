@@ -13,24 +13,6 @@ pipeline {
     }
 
     stages {
-        stage('Vérification Git') {
-            steps {
-                sh 'git --version'
-            }
-        }
-
-        stage('Clonage du dépôt') {
-            steps {
-                git 'https://github.com/X3nc3/Vroum_VroumBack.git'
-            }
-        }
-
-        stage('Lister les fichiers') {
-            steps {
-                sh 'ls -la && cat README'
-            }
-        }
-
         stage('Tests unitaires') {
             steps {
                 echo "======================> mvn test"
