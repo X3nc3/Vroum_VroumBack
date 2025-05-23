@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: demo.vroum_vroum.services.VehiculeServiceServTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.919 s -- in demo.vroum_vroum.services.VehiculeServiceServTest
