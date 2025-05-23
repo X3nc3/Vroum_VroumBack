@@ -12,6 +12,12 @@ pipeline {
         SRV_DEPLOY = '172.29.86.140'
     }
 
+stage('Vérification Git') {
+    steps {
+        sh 'git --version'
+    }
+}
+
     stages {
         stage('Clonage du dépôt') {
             steps {
